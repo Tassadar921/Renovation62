@@ -1,0 +1,25 @@
+{
+    "shared": {
+        "messages": {
+            "required": "Ce champ est requis",
+            "string": "Ce champ est requis",
+            "minLength": "Trop court ({min} caractères minimum)",
+            "maxLength": "Trop long ({max} caractères maximum)",
+            "email": "Adresse email invalide",
+            "regex": "Format invalide",
+            "url": "Lien invalide",
+            "enum": "Valeur non autorisée",
+            "uuid": "Valeur invalide",
+            "boolean": "Valeur invalide",
+            "number": "Nombre invalide",
+            "file.size": "Fichier trop volumineux ({size} maximum)",
+            "file.extname": "Format de fichier non autorisé",
+            "phone.regex": "Numéro de téléphone invalide",
+            "postalCode.regex": "Code postal invalide (5 chiffres)",
+            "projectType.uuid": "Sélectionnez un type de projet",
+            "projectType.required": "Sélectionnez un type de projet",
+            "facebook.url": "Lien invalide : il doit commencer par https://",
+            "facebook.regex": "Le lien doit pointer vers une page Facebook (https://www.facebook.com/...)"
+        }
+    }
+}

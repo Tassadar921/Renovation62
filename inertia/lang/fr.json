@@ -1,0 +1,605 @@
+{
+    "title": "Solutions de Travaux et de Bricolage",
+    "layout": {
+        "nav": {
+            "label": "Navigation principale",
+            "home": "Accueil - Solutions de Travaux et de Bricolage",
+            "menu": "Menu de navigation",
+            "account": "Mon compte",
+            "links": {
+                "home": "Accueil",
+                "services": "Prestations",
+                "rentalPermit": "Permis de louer",
+                "serviceArea": "Zone d'intervention",
+                "about": "À propos",
+                "contact": "Contact"
+            },
+            "openMenu": "Ouvrir le menu",
+            "closeMenu": "Fermer le menu"
+        },
+        "theme": {
+            "enableDark": "Activer le mode sombre",
+            "enableLight": "Activer le mode clair",
+            "label": "Mode sombre"
+        },
+        "footer": {
+            "legal": "Mentions légales",
+            "tagline": "Artisan de proximité spécialisé en rénovation intérieure et mise aux normes des logements locatifs",
+            "facebook": "Suivez-nous sur Facebook",
+            "copyright": "Solutions de Bricolage",
+            "navigation": "Navigation",
+            "contact": "Contact",
+            "privacy": "Politique de confidentialité",
+            "legalLabel": "Informations légales"
+        }
+    },
+    "auth": {
+        "login": {
+            "title": "Connexion",
+            "subtitle": "Entrez vos identifiants pour accéder à l'administration",
+            "email": "Email",
+            "password": "Mot de passe",
+            "submit": "Se connecter",
+            "forgotPassword": "Mot de passe oublié ?"
+        },
+        "forgotPassword": {
+            "title": "Mot de passe oublié",
+            "subtitle": "Renseignez votre adresse email pour recevoir un lien de réinitialisation",
+            "email": "Email",
+            "submit": "Envoyer le lien",
+            "backToLogin": "Retour à la connexion"
+        }
+    },
+    "passwordReset": {
+        "title": "Nouveau mot de passe",
+        "password": "Mot de passe",
+        "confirmation": "Confirmer le mot de passe",
+        "mismatch": "Les mots de passe ne correspondent pas",
+        "submit": "Enregistrer le nouveau mot de passe",
+        "rules": {
+            "length": "8 caractères minimum",
+            "upper": "Une lettre majuscule",
+            "lower": "Une lettre minuscule",
+            "digit": "Un chiffre",
+            "special": "Un caractère spécial"
+        }
+    },
+    "profile": {
+        "title": "Mon profil",
+        "username": "Nom d'utilisateur",
+        "email": "Adresse email",
+        "memberSince": "Membre depuis",
+        "lastUpdate": "Profil modifié le",
+        "save": "Enregistrer",
+        "resetPassword": "Recevoir un email de réinitialisation",
+        "resetPasswordSending": "Envoi en cours…",
+        "dropdown": "Mon profil",
+        "exportData": "Exporter mes données",
+        "deleteAccount": "Supprimer mon compte",
+        "deleteAccountConfirm": {
+            "title": "Supprimer le compte",
+            "description": "Cette action est irréversible. Votre compte et toutes vos données seront définitivement supprimés.",
+            "cancel": "Annuler",
+            "confirm": "Supprimer"
+        }
+    },
+    "errors": {
+        "notFound": {
+            "title": "Page introuvable",
+            "description": "La page que vous recherchez n'existe pas ou a été déplacée.",
+            "back": "Retour à l'accueil"
+        }
+    },
+    "admin": {
+        "title": "Admin",
+        "layout": {
+            "logout": "Se déconnecter",
+            "menu": {
+                "home": "Voir le site",
+                "dashboard": "Tableau de bord",
+                "landing": "Page d'accueil",
+                "settings": "Paramètres",
+                "services": "Prestations",
+                "rentalPermit": "Permis de louer",
+                "about": "À propos",
+                "contact": "Contact",
+                "projectTypes": "Types de projet",
+                "contactRequests": "Demandes de contact",
+                "serviceArea": "Zone d'intervention"
+            }
+        },
+        "dashboard": {
+            "title": "Tableau de bord"
+        },
+        "pages": {
+            "edit": {
+                "save": "Enregistrer",
+                "view": "Voir la page",
+                "updatedAt": "Modifié le",
+                "fields": {
+                    "title": "Titre",
+                    "titleHint": "Affiché en bleu en titre principal de la page et utilisé comme meta-description (extrait sous le lien dans Google). Idéalement moins de 155 caractères.",
+                    "description": "Sous-titre",
+                    "descriptionHint": "Affiché en gris sous le titre.",
+                    "image": "Photo",
+                    "imageAdd": "Ajouter une photo",
+                    "imageReplace": "Remplacer",
+                    "imageRemove": "Retirer",
+                    "imageHint": "Affichée à droite du titre sur ordinateur, sous le texte sur mobile. JPG, PNG ou WebP, 5 Mo maximum. Format portrait conseillé (4:5).",
+                    "body": "Texte de présentation",
+                    "bodyHint": "Affiché sous l'en-tête de la page. Laissez une ligne vide pour créer un nouveau paragraphe."
+                },
+                "preview": "Aperçu dans Google",
+                "previewHint": "Le titre Google reprend le surtitre orange de la page suivi du nom du site."
+            }
+        },
+        "settings": {
+            "title": "Paramètres du site",
+            "save": "Enregistrer",
+            "fields": {
+                "phone": "Numéro de téléphone",
+                "phoneHint": "Affiché sur l'ensemble du site (page d'accueil, etc.). Laisser vide pour le masquer.",
+                "phonePlaceholder": "06 12 34 56 78",
+                "facebook": "Page Facebook",
+                "facebookPlaceholder": "https://www.facebook.com/votre-page",
+                "facebookHint": "Lien complet vers la page Facebook de l'entreprise (https://www.facebook.com/…). Laisser vide pour le masquer.",
+                "email": "Adresse email de contact",
+                "emailPlaceholder": "contact{'@'}exemple.fr",
+                "emailHint": "Affichée sur l'ensemble du site (footer, etc.). Laisser vide pour la masquer."
+            }
+        },
+        "services": {
+            "title": "Prestations",
+            "add": "Ajouter une prestation",
+            "editHeader": "Modifier l'en-tête de la page",
+            "edit": "Modifier",
+            "hint": "Les prestations s'affichent dans cet ordre sur la page d'accueil (texte court) et sur la page Prestations (texte détaillé).",
+            "moveUp": "Monter",
+            "moveDown": "Descendre",
+            "empty": "Aucune prestation pour le moment.",
+            "delete": {
+                "label": "Supprimer",
+                "title": "Supprimer « {title} » ?",
+                "description": "La prestation disparaîtra de la page d'accueil et de la page Prestations. Cette action est irréversible.",
+                "cancel": "Annuler",
+                "confirm": "Supprimer"
+            },
+            "form": {
+                "createTitle": "Nouvelle prestation",
+                "editTitle": "Modifier la prestation",
+                "back": "Retour à la liste",
+                "save": "Enregistrer",
+                "fields": {
+                    "title": "Titre",
+                    "icon": "Icône",
+                    "summary": "Texte court (page d'accueil)",
+                    "summaryHint": "Une phrase affichée sous le titre dans la grille de la page d'accueil.",
+                    "description": "Texte d'introduction (page Prestations)",
+                    "descriptionHint": "Affiché dans la carte de la page Prestations. Laissez une ligne vide pour créer un nouveau paragraphe.",
+                    "features": "Points clés (page Prestations)",
+                    "featuresHint": "Affichés en liste à puces sous le texte d'introduction. Un point par ligne. Laisser vide pour ne pas afficher de liste."
+                }
+            },
+            "icons": {
+                "brick-wall": "Mur de briques",
+                "zap": "Éclair",
+                "paint-roller": "Rouleau de peinture",
+                "layout-grid": "Carrelage",
+                "hammer": "Marteau",
+                "wrench": "Clé",
+                "ruler": "Règle",
+                "droplets": "Gouttes d'eau",
+                "door-open": "Porte",
+                "house": "Maison",
+                "accessibility": "Accessibilité",
+                "key-round": "Clé de logement"
+            }
+        },
+        "projectTypes": {
+            "title": "Types de projet",
+            "hint": "Liste proposée dans le champ « Type de projet » du formulaire de contact, dans cet ordre.",
+            "save": "Enregistrer",
+            "add": "Ajouter",
+            "newPlaceholder": "Nouveau type de projet",
+            "moveUp": "Monter",
+            "moveDown": "Descendre",
+            "empty": "Aucun type de projet pour le moment.",
+            "delete": {
+                "label": "Supprimer",
+                "title": "Supprimer « {label} » ?",
+                "description": "Ce type de projet ne sera plus proposé dans le formulaire de contact.",
+                "cancel": "Annuler",
+                "confirm": "Supprimer"
+            }
+        },
+        "contactRequests": {
+            "title": "Demandes de contact",
+            "new": "Nouvelle",
+            "processed": "Traitée",
+            "markProcessed": "Marquer comme traitée",
+            "markNew": "Remettre en nouvelle",
+            "empty": "Aucune demande pour le moment.",
+            "delete": {
+                "label": "Supprimer",
+                "title": "Supprimer la demande de {name} ?",
+                "description": "Cette action est irréversible.",
+                "cancel": "Annuler",
+                "confirm": "Supprimer"
+            }
+        }
+    },
+    "legal": {
+        "title": "Mentions légales",
+        "editor": {
+            "title": "Éditeur du site",
+            "name": "SOLUTIONS DE BRICOLAGE",
+            "legalForm": {
+                "label": "Forme juridique",
+                "value": "SASU (société par actions simplifiée unipersonnelle) au capital de 1 000 €"
+            },
+            "headquarters": {
+                "label": "Siège social",
+                "value": "382 Le Bois de la Cote, 62830 Samer"
+            },
+            "registration": {
+                "label": "Immatriculation",
+                "value": "Registre national des entreprises (RNE), SIREN 930 868 278"
+            },
+            "siret": {
+                "label": "SIRET du siège",
+                "value": "930 868 278 00019"
+            },
+            "vat": {
+                "label": "TVA intracommunautaire",
+                "value": "FR66930868278"
+            },
+            "phoneLabel": "Téléphone",
+            "emailLabel": "Email",
+            "publisher": {
+                "label": "Directeur de la publication",
+                "value": "Fabrice Cuisinier"
+            }
+        },
+        "credits": {
+            "title": "Conception et réalisation",
+            "identity": "Paul Cuisinier, auto-entreprise située au 15 rue Henri Dunant, 59000 Lille",
+            "phone": "07 80 48 81 99"
+        },
+        "purpose": {
+            "title": "Objet du site",
+            "description": "Présentation des activités et services de SOLUTIONS DE BRICOLAGE."
+        },
+        "hosting": {
+            "title": "Hébergement",
+            "name": "OVH SAS",
+            "address": "2 rue Kellermann, 59100 Roubaix, France",
+            "registration": "RCS Lille Métropole 424 761 419",
+            "phone": "09 72 10 10 07",
+            "websiteLabel": "Site web"
+        },
+        "intellectualProperty": {
+            "title": "Propriété intellectuelle",
+            "description": "Tous les éléments du site (textes, images, logos, vidéos, etc.) sont la propriété exclusive de SOLUTIONS DE BRICOLAGE. Toute reproduction ou exploitation non autorisée est interdite."
+        },
+        "links": {
+            "title": "Liens hypertextes",
+            "description": "Toute mise en place de lien vers le site nécessite une autorisation écrite préalable. SOLUTIONS DE BRICOLAGE décline toute responsabilité pour le contenu des sites externes."
+        },
+        "personalData": {
+            "title": "Données personnelles et cookies",
+            "collection": "Les informations transmises via le formulaire de contact (nom, téléphone, email, code postal, type de projet) sont utilisées uniquement pour traiter votre demande. Elles ne sont ni vendues, ni cédées à des tiers.",
+            "cookies": "Le site n'utilise que des cookies strictement nécessaires à son fonctionnement. Aucun cookie publicitaire ni de mesure d'audience n'est déposé.",
+            "rights": "Conformément au RGPD, vous pouvez demander l'accès, la rectification ou la suppression de vos données",
+            "rightsByEmail": "en écrivant à",
+            "more": "Pour en savoir plus, consultez notre",
+            "privacyLink": "politique de confidentialité"
+        },
+        "liability": {
+            "title": "Responsabilité",
+            "description": "L'utilisateur reconnaît disposer des compétences et des moyens nécessaires pour accéder au site et l'utiliser. SOLUTIONS DE BRICOLAGE s'efforce de fournir des informations exactes et à jour, mais ne saurait être tenue responsable des erreurs, omissions ou indisponibilités temporaires du site, ni des dommages pouvant résulter de son utilisation."
+        },
+        "mediation": {
+            "title": "Médiation de la consommation",
+            "description": "Conformément aux articles L.612-1 et suivants du Code de la consommation, le client consommateur peut recourir gratuitement à un médiateur de la consommation en vue de la résolution amiable d'un litige. Les informations sur la médiation sont disponibles sur"
+        },
+        "law": {
+            "title": "Droit applicable et juridiction",
+            "description": "Les présentes mentions légales sont régies par le droit français. En cas de litige, et à défaut de résolution amiable, les tribunaux français seront seuls compétents."
+        },
+        "cookies": {
+            "title": "Cookies",
+            "intro": "Le site utilise uniquement des cookies techniques strictement nécessaires à son fonctionnement et à sa sécurité (protection des formulaires, affichage des messages de confirmation). Conformément aux recommandations de la CNIL, ils ne nécessitent pas votre consentement. Aucun cookie publicitaire ni de mesure d'audience n'est déposé."
+        },
+        "data": {
+            "rightsByContactPage": "via la page"
+        }
+    },
+    "pages": {
+        "comingSoon": "Contenu à venir.",
+        "services": {
+            "label": "Prestations",
+            "waste": {
+                "title": "Évacuation et valorisation des déchets",
+                "description": "Chantier rendu propre"
+            },
+            "accessibility": {
+                "title": "Adapter votre logement aux personnes à mobilité réduite pour un quotidien confortable",
+                "description": "Nous réalisons des rénovations complètes pour améliorer l'accessibilité : remplacement d'une baignoire par une douche, adaptation des surfaces, sécurisation des zones de circulation. Un accompagnement soigné, particulièrement précieux pour les personnes à mobilité réduite et leurs proches.",
+                "examples": {
+                    "title": "Exemples de réalisations",
+                    "items": {
+                        "shower": "Transformation baignoire en douche italienne sécurisée",
+                        "grabBars": "Pose de barres d'appui et garde-corps normés",
+                        "passages": "Élargissement de passages et adaptation de seuils",
+                        "nonSlip": "Sols antidérapants adaptés",
+                        "toilets": "Pose de toilettes rehaussées"
+                    }
+                }
+            },
+            "cta": {
+                "title": "Un projet précis en tête ?",
+                "description": "Décrivez-nous votre chantier, nous prenons rendez-vous pour la visite technique.",
+                "button": "Nous contacter"
+            }
+        },
+        "rentalPermit": {
+            "title": "Permis de louer",
+            "what": {
+                "title": "Qu'est-ce que le permis de louer ?",
+                "law": "Instauré par la loi ALUR, il permet aux communes de contrôler les logements avant leur mise en location.",
+                "visit": "Une visite technique de la mairie ou de l'organisme désigné permet de vérifier que l'habitation respecte les critères de sécurité, salubrité et habitabilité."
+            },
+            "checklist": {
+                "title": "Les points que nous vérifions et remettons aux normes",
+                "description": "Une check-list rigoureuse issue de notre expérience de terrain.",
+                "items": {
+                    "electricity": "Installation électrique conforme (NF C 15-100)",
+                    "fire": "Sécurité incendie, détecteurs",
+                    "railings": "Garde-corps aux hauteurs réglementaires",
+                    "surfaces": "Surfaces et volumes habitables minimaux",
+                    "ventilation": "Ventilations et VMC en état de marche",
+                    "insulation": "Isolation et absence d'humidité",
+                    "joinery": "Menuiseries et fermetures en bon état",
+                    "sanitary": "Sanitaires conformes"
+                }
+            },
+            "commitment": {
+                "title": "Notre engagement bailleurs",
+                "items": {
+                    "audit": "Audit sur site avec photos et mesures",
+                    "quote": "Devis détaillé sous 48h après visite",
+                    "documents": "Pièces obligatoires",
+                    "diagnostics": "Diagnostics",
+                    "report": "Compte-rendu de la 1re visite si permis de louer refusé"
+                }
+            },
+            "cta": {
+                "title": "Un dossier à préparer ? Parlons-en",
+                "description": "Nous connaissons les attentes des services instructeurs et sécurisons votre mise en location. Que le logement soit vide, occupé ou en cours de rachat, nous adaptons l'intervention.",
+                "button": "Demander une visite"
+            }
+        },
+        "serviceArea": {
+            "title": "Zone d'intervention",
+            "map": {
+                "label": "Carte de la zone d'intervention : triangle entre Calais, Saint-Omer et Berck, autour du siège de Samer",
+                "headquarters": "Samer (siège)"
+            },
+            "checker": {
+                "label": "Votre commune est-elle dans notre zone ?",
+                "placeholder": "Saisissez le nom de votre commune",
+                "noResult": "Aucune commune trouvée",
+                "error": "La recherche est momentanément indisponible. Appelez-nous pour vérifier votre commune.",
+                "inside": "{name} est dans notre zone d'intervention.",
+                "near": "{name} est à environ {distance} km de notre zone : nous pouvons intervenir.",
+                "tooFar": "Trop loin : {name} est à environ {distance} km de notre zone d'intervention.",
+                "notFound": "Aucune commune ne correspond à « {query} »."
+            },
+            "outside": {
+                "title": "Si votre commune n'est pas dans cette zone, contactez-nous quand même pour vérification",
+                "description": "N'hésitez pas à nous contacter.",
+                "button": "Nous contacter"
+            }
+        },
+        "about": {
+            "title": "À propos",
+            "company": {
+                "title": "Fiche entreprise",
+                "director": {
+                    "label": "Dirigeant",
+                    "value": "Fabrice Cuisinier"
+                },
+                "legalName": {
+                    "label": "Raison sociale",
+                    "value": "SOLUTIONS DE BRICOLAGE (SASU)"
+                },
+                "siren": {
+                    "label": "SIREN",
+                    "value": "930 868 278"
+                },
+                "creation": {
+                    "label": "Création",
+                    "value": "11 juillet 2024"
+                },
+                "headquarters": {
+                    "label": "Siège",
+                    "value": "Samer"
+                }
+            },
+            "approach": {
+                "titleLine1": "L'œil de l'investisseur,",
+                "titleLine2": "la main de l'artisan"
+            },
+            "values": {
+                "precision": {
+                    "title": "Précision",
+                    "description": "Un chiffrage détaillé, des délais respectés, des finitions soignées et un chantier propre."
+                },
+                "proximity": {
+                    "title": "Proximité",
+                    "description": "Un artisan local, joignable, à l'écoute de vos envies et de vos contraintes."
+                },
+                "expertise": {
+                    "title": "Expertise",
+                    "description": "Une solide connaissance des exigences de la rénovation."
+                },
+                "reactivity": {
+                    "title": "Réactivité",
+                    "description": "Devis sous 48h après visite et équipe mobilisable rapidement."
+                }
+            },
+            "cta": {
+                "title": "Prêt à démarrer votre projet ?",
+                "description": "Décrivez-nous votre chantier, nous conviendrons d'un rendez-vous pour la visite technique.",
+                "services": "Voir les prestations",
+                "quote": "Demander un devis"
+            }
+        },
+        "contact": {
+            "title": "Contact",
+            "form": {
+                "name": "Nom et prénom",
+                "phone": "Téléphone",
+                "phonePlaceholder": "06 12 34 56 78",
+                "email": "Email",
+                "postalCode": "Code postal",
+                "postalCodePlaceholder": "62830",
+                "projectType": "Type de projet",
+                "projectTypePlaceholder": "Sélectionnez un type de projet",
+                "submit": "Envoyer ma demande",
+                "notice": "Vos données sont utilisées uniquement par SOLUTIONS DE BRICOLAGE pour traiter votre demande et vous recontacter. Elles sont conservées 3 ans maximum après notre dernier échange. Vous pouvez y accéder, les rectifier ou les faire supprimer à tout moment.",
+                "noticeLink": "En savoir plus"
+            },
+            "details": {
+                "title": "Un contact direct ?",
+                "description": "Nous préférons souvent un appel pour cadrer rapidement votre besoin."
+            }
+        }
+    },
+    "homePage": {
+        "badge": {
+            "label": "Réactivité",
+            "value": "48h après visite",
+            "detail": "pour recevoir votre devis détaillé"
+        },
+        "cta": "Voir les prestations",
+        "sector": "Secteur 62 Littoral",
+        "call": "Appeler le {phone}",
+        "highlights": {
+            "quote": {
+                "title": "Devis 48h après visite",
+                "description": "Chiffrage clair, précis et détaillé"
+            },
+            "visit": {
+                "title": "Visite systématique",
+                "description": "Un technicien se déplace pour échanger avec vous sur votre projet (prise de cotes, photos, etc.)"
+            },
+            "projects": {
+                "title": "Petits & gros chantiers",
+                "description": "Équipe réactive & performante"
+            },
+            "rentalPermit": {
+                "title": "Permis de louer",
+                "description": "Expertise reconnue auprès des prescripteurs"
+            }
+        },
+        "expertise": {
+            "title": "Une rénovation intérieure complète avec un seul interlocuteur",
+            "subtitle": "Des pôles d'expertise complémentaires pour prendre en charge la totalité du chantier, sans multiplier les intervenants",
+            "extra": {
+                "label": "Expertise complémentaire",
+                "title": "Accessibilité PMR & rénovation complète",
+                "description": "Transformation d'une salle de bain avec remplacement d'une baignoire par une douche, garde-corps, adaptation des surfaces et des portes. Rénovation intégrale de votre intérieur pour améliorer votre accessibilité."
+            }
+        },
+        "eyebrow": "Rénovation intérieure - Pas-de-Calais",
+        "rentalPermit": {
+            "label": "Notre spécialité",
+            "title": "Permis de louer : mettez votre logement en conformité sereinement",
+            "subtitle": "Les secteurs de Boulogne-sur-Mer et de Calais imposent un contrôle strict avant mise en location. Nous connaissons parfaitement les exigences : électricité, sécurité, garde-corps, surfaces réglementaires, ventilation, isolation, etc. Nous accompagnons les propriétaires bailleurs de l'état des lieux techniques à la remise en conformité.",
+            "steps": {
+                "diagnosis": "Diagnostic complet sur site",
+                "quote": "Chiffrage détaillé sous 48h après visite",
+                "works": "Prise en charge globale des travaux",
+                "contact": "Interlocuteur unique jusqu'à la remise des clés"
+            }
+        },
+        "process": {
+            "title": "Quatre étapes claires, du premier appel à la remise des clés.",
+            "steps": {
+                "contact": {
+                    "title": "Contact",
+                    "description": "Vous décrivez votre projet par téléphone ou via le formulaire"
+                },
+                "visit": {
+                    "title": "Visite technique",
+                    "description": "Un technicien se déplace, s'entretient avec vous, prend les cotes et les photos"
+                },
+                "quote": {
+                    "title": "Devis sous 48h",
+                    "description": "Chiffrage détaillé, transparent, sans surprise"
+                },
+                "works": {
+                    "title": "Réalisation",
+                    "description": "Nous prenons en charge les travaux et vous tenons informé"
+                }
+            }
+        },
+        "serviceArea": {
+            "label": "Zone d'intervention",
+            "title": "Littoral de la Côte d'Opale",
+            "subtitle": "De Saint-Omer à Boulogne-sur-Mer",
+            "cta": "Voir la carte détaillée"
+        }
+    },
+    "privacy": {
+        "title": "Politique de confidentialité",
+        "intro": "Cette politique explique quelles données personnelles sont collectées sur ce site, pourquoi, combien de temps elles sont conservées et comment exercer vos droits, conformément au Règlement général sur la protection des données (RGPD) et à la loi Informatique et Libertés.",
+        "controller": {
+            "title": "Responsable du traitement",
+            "text": "Le responsable du traitement est SOLUTIONS DE BRICOLAGE, SASU dont le siège est situé 382 Le Bois de la Cote, 62830 Samer, représentée par Fabrice Cuisinier, président."
+        },
+        "collected": {
+            "title": "Données collectées",
+            "form": "Via le formulaire de contact : nom et prénom, téléphone, adresse email, code postal et type de projet. Ces informations sont saisies volontairement par vous.",
+            "technical": "Données techniques : adresse IP et journaux de connexion, enregistrés automatiquement par le serveur pour assurer la sécurité du site.",
+            "browsing": "La simple navigation sur le site ne donne lieu à aucun profilage ni à aucune mesure d'audience."
+        },
+        "purposes": {
+            "title": "Finalités",
+            "text": "Vos données sont utilisées pour répondre à votre demande, organiser la visite technique, établir un devis et assurer le suivi de la relation. Les données techniques servent à sécuriser le site et à prévenir les abus (envois automatisés, tentatives d'intrusion)."
+        },
+        "basis": {
+            "title": "Base légale",
+            "text": "Le traitement des demandes de contact repose sur l'exécution de mesures précontractuelles prises à votre demande (article 6.1.b du RGPD). La sécurité du site repose sur l'intérêt légitime de l'éditeur (article 6.1.f du RGPD)."
+        },
+        "recipients": {
+            "title": "Destinataires",
+            "text": "Vos données sont destinées exclusivement aux personnes habilitées de SOLUTIONS DE BRICOLAGE. Elles peuvent être traitées par des prestataires techniques agissant pour son compte : OVH SAS (hébergement du site, en France) et Brevo (envoi des emails de notification, au sein de l'Union européenne). Elles ne sont jamais vendues, louées ni cédées à des tiers.",
+            "transfers": "Aucune donnée n'est transférée en dehors de l'Union européenne, à l'exception de l'adresse IP transmise à OpenStreetMap lors de l'affichage de la carte (Royaume-Uni, pays reconnu par la Commission européenne comme offrant un niveau de protection adéquat).",
+            "map": "La carte de la page Zone d'intervention est fournie par OpenStreetMap : lors de son affichage, votre navigateur transmet votre adresse IP aux serveurs de la fondation OpenStreetMap afin de charger les fonds de carte."
+        },
+        "retention": {
+            "title": "Durée de conservation",
+            "form": "Demandes de contact : 3 ans à compter du dernier échange, puis suppression.",
+            "technical": "Données techniques : durée limitée, n'excédant pas 12 mois."
+        },
+        "storage": "Le site enregistre également, dans votre navigateur, votre préférence d'affichage (mode clair ou sombre). Cette information reste sur votre appareil et n'est pas transmise.",
+        "security": {
+            "title": "Sécurité",
+            "text": "Des mesures techniques et organisationnelles adaptées protègent vos données : connexion chiffrée (HTTPS), accès à l'administration du site restreint et protégé par mot de passe."
+        },
+        "rights": {
+            "title": "Vos droits",
+            "text": "Vous disposez d'un droit d'accès, de rectification, d'effacement, de limitation, d'opposition et de portabilité de vos données. Pour les exercer, contactez-nous",
+            "byEmail": "à l'adresse :",
+            "byContactPage": "via la page",
+            "cnil": "Si vous estimez, après nous avoir contactés, que vos droits ne sont pas respectés, vous pouvez adresser une réclamation à la CNIL (www.cnil.fr)."
+        },
+        "updates": {
+            "title": "Modification de la politique",
+            "text": "Cette politique peut être mise à jour pour tenir compte des évolutions du site ou de la réglementation.",
+            "lastUpdate": "Dernière mise à jour : 30 septembre 2026."
+        }
+    }
+}

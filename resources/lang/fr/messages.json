@@ -1,0 +1,111 @@
+{
+    "title": "Solutions de Travaux et de Bricolage",
+    "tooManyRequests": "Trop de tentatives. Veuillez patienter quelques minutes avant de réessayer.",
+    "admin": {
+        "pages": {
+            "update": {
+                "success": "Page mise à jour avec succès",
+                "error": "Erreur lors de la mise à jour de la page"
+            }
+        },
+        "settings": {
+            "update": {
+                "success": "Paramètres enregistrés",
+                "error": "Erreur lors de l'enregistrement des paramètres"
+            }
+        },
+        "services": {
+            "store": {
+                "success": "Prestation ajoutée",
+                "error": "Erreur lors de l'ajout de la prestation"
+            },
+            "update": {
+                "success": "Prestation mise à jour",
+                "error": "Erreur lors de la mise à jour de la prestation"
+            },
+            "destroy": {
+                "success": "Prestation supprimée",
+                "error": "Erreur lors de la suppression de la prestation"
+            }
+        },
+        "projectTypes": {
+            "store": {
+                "success": "Type de projet ajouté",
+                "error": "Erreur lors de l'ajout du type de projet"
+            },
+            "update": {
+                "success": "Type de projet mis à jour",
+                "error": "Erreur lors de la mise à jour du type de projet"
+            },
+            "destroy": {
+                "success": "Type de projet supprimé",
+                "error": "Erreur lors de la suppression du type de projet"
+            }
+        },
+        "contactRequests": {
+            "destroy": {
+                "success": "Demande supprimée"
+            }
+        }
+    },
+    "mail": {
+        "footerPrivacy": "Politique de confidentialité",
+        "passwordReset": {
+            "subject": "Réinitialisation de votre mot de passe",
+            "greeting": "Bonjour {username},",
+            "body1": "Vous avez demandé la réinitialisation de votre mot de passe sur consilium.fr.",
+            "body2": "Cliquez sur le bouton ci-dessous pour choisir un nouveau mot de passe. Ce lien est valable 1 heure.",
+            "cta": "Réinitialiser mon mot de passe",
+            "ignore": "Si vous n'êtes pas à l'origine de cette demande, ignorez simplement cet email.",
+            "footer": "Cet email a été envoyé automatiquement par Solutions de Travaux et de Bricolage (consilium.fr). Merci de ne pas y répondre directement."
+        },
+        "contactRequest": {
+            "subject": "Nouvelle demande de contact : {name}",
+            "intro": "Une nouvelle demande a été envoyée depuis le formulaire de contact du site.",
+            "name": "Nom et prénom",
+            "phone": "Téléphone",
+            "email": "Email",
+            "postalCode": "Code postal",
+            "projectType": "Type de projet",
+            "cta": "Voir les demandes",
+            "footer": "Répondez directement à cet email pour écrire au demandeur."
+        }
+    },
+    "passwordReset": {
+        "invalidToken": "Ce lien de réinitialisation est invalide ou a expiré.",
+        "passwordMismatch": "Les mots de passe ne correspondent pas.",
+        "success": "Mot de passe mis à jour avec succès. Vous pouvez vous connecter.",
+        "error": "Une erreur est survenue lors de la mise à jour du mot de passe, veuillez réessayer."
+    },
+    "profile": {
+        "update": {
+            "success": "Profil mis à jour avec succès"
+        },
+        "passwordReset": {
+            "sent": "Un email de réinitialisation a été envoyé à votre adresse",
+            "error": "Erreur lors de l'envoi de l'email, veuillez réessayer"
+        },
+        "destroy": {
+            "success": "Votre compte a été supprimé.",
+            "error": "Une erreur est survenue lors de la suppression du compte."
+        }
+    },
+    "forgotPassword": {
+        "sent": "Si cette adresse est associée à un compte, vous recevrez un email de réinitialisation."
+    },
+    "auth": {
+        "login": {
+            "success": "Connexion réussie",
+            "error": "Échec de la connexion, veuillez vérifier vos identifiants",
+            "notEnabled": "Votre compte est désactivé."
+        },
+        "logout": {
+            "success": "Vous avez été déconnecté"
+        }
+    },
+    "contact": {
+        "success": "Merci, votre demande a bien été envoyée. Nous vous recontactons rapidement pour convenir de la visite technique.",
+        "error": "Une erreur est survenue lors de l'envoi de votre demande. Merci de réessayer ou de nous appeler directement.",
+        "invalidProjectType": "Type de projet invalide"
+    }
+}
